@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TrelloPost</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/application.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.css">
+  <script type="text/javascript" src="assets/js/coffeescript.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.js"></script>
+  <script type="text/javascript" src="https://api.trello.com/1/client.js?key=YOUR_KEY"></script>
+  <script type="text/javascript" src="assets/js/jquery.inlinecomplete.js"></script>
+  <script type="text/coffeescript" src="assets/js/application.coffee"></script>
+</head>
+  <body>
+    <form id="main-form">
+      <div class="form-group has-feedback">
+        <input id="board" class="form-control" type="text" placeholder="Board name" autocomplete="off">
+      </div>
+      <div class="form-group dark-grey has-feedback">
+        <input id="list" class="form-control" type="text" placeholder="List name" autocomplete="off">
+      </div>
+      <div class="form-group">
+        <textarea id="description" class="form-control" type="text" placeholder="Description"></textarea>
+      </div>
+    </form>
+    <footer>
+      <div class="row">
+        <div class="col-xs-offset-3 col-xs-6 text-center semi-grey">Submit card</div>
+        <div class="col-xs-3 text-center light-grey">⌘+Enter</div>
+      </div>
+    </footer>
+  </body>
+</html>

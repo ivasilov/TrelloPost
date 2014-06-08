@@ -1,0 +1,35 @@
+{
+  "name": "TrelloPost",
+  "version": "0.0.1",
+  "description": "Trello issue posting client, based on node-webkit.",
+  "tags": ["trello", "node-webkit"],
+  "keywords": [ "trello", "rest api", "issue post"],
+  "author": "Ivan Vasilov <vasilov.ivan@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivasilov/trellopost.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivasilov/trellopost/issues"
+  },
+  "license": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tomzx/redmine-issuepost/blob/master/license.txt"
+    }
+  ],
+  "window": {
+    "width": 420,
+    "height": 250,
+    "frame": false,
+    "resizable": false,
+    "toolbar": false
+  },
+  "main": "index.html",
+  "scripts": {
+    "start": "nodewebkit"
+  },
+  "dependencies": {
+    "nodewebkit": "^0.8.6-3"
+  }
+}
