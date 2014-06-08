@@ -1,4 +1,4 @@
-Redmine Issue Post
+TrelloPost
 =========
 
 TrelloPost is greatly inspired on [IssuePost][1] for [github][2]. In this case, it is aimed at the [Trello][3] and allow a user to quickly enter new cards into their boards without requiring them to open their browser, navigate to trello and fill out all the fields.
